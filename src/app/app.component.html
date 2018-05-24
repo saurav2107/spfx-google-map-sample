@@ -1,0 +1,27 @@
+
+<h2>{{description}}</h2>
+
+
+<div class="container">
+  
+    <div class="row">
+      
+      <div class="col-100">
+        <input type="text" [(ngModel)]="searchText" placeholder="Search Product Here..." />
+        
+      </div>
+      
+    </div>
+ 
+    
+    <div class="row">
+      
+      <input type="submit" value="Submit" (click)="search()">
+    </div>
+
+    <div #map id="map"></div> 
+
+</div>
+
+
+   
